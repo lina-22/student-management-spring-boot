@@ -1,2 +1,7 @@
 
-i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËèÁf8û®µßÄ1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËèÁf8¿îÎ„Å1
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ìÄÏ„Å1
+S
+java:S1128
+"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8ìÄÏ„Å1
