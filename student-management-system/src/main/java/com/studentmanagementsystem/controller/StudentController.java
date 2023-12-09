@@ -5,9 +5,7 @@ import com.studentmanagementsystem.service.StudentService;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.Serializable;
 
@@ -40,6 +38,13 @@ public class StudentController {
     public String saveStudent(@ModelAttribute("student") Student student){
         studentService.saveStudent(student);
         return "redirect:/students";
+    }
+
+    @PutMapping("/students/edit/{id}")
+    public String editStudentForm(@PathVariable Long id, Model model){
+        model.addAttribute("student", studentService.getStudentById(id));
+        return "edit_student";
+
     }
 
 
