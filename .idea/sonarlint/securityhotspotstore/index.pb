@@ -13,3 +13,5 @@ kstudent-management-system/src/main/java/com/studentmanagementsystem/StudentMana
 estudent-management-system/src/main/java/com/studentmanagementsystem/controller/StudentController.java,b\9\b99cfe72c7c89937244c1f486b84cc6a5dc05c18
 Q
 !student-management-system/pom.xml,1\d\1d1af2a90cbee9cc3c71b40adb61cf5fbbbab347
+Œ
+\student-management-system/src/main/java/com/studentmanagementsystem/repository/Interger.java,9\b\9b9319bb4eea04ff8ab461274fae0e7a17f17f4f

@@ -31,7 +31,7 @@ public class Student {
         return id;
     }
 
-    public void setId() {
+    public void setId(Long id) {
 
     }
 
