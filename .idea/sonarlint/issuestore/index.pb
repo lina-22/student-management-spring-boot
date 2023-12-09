@@ -11,3 +11,5 @@ cstudent-management-system/src/main/java/com/studentmanagementsystem/service/Stu
 kstudent-management-system/src/main/java/com/studentmanagementsystem/StudentManagementSystemApplication.java,9\e\9ea649f7b60a850efb70027816eb8f83f0ad8060
 •
 estudent-management-system/src/main/java/com/studentmanagementsystem/controller/StudentController.java,b\9\b99cfe72c7c89937244c1f486b84cc6a5dc05c18
+Q
+!student-management-system/pom.xml,1\d\1d1af2a90cbee9cc3c71b40adb61cf5fbbbab347
