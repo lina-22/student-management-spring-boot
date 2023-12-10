@@ -3,11 +3,11 @@ import com.studentmanagementsystem.entity.Student;
 
 import java.util.List;
 public interface StudentService {
-    List<Student>getAllStudents();
-    Student saveStudent(Student student);
+    public abstract List<Student>getAllStudents();
+    public abstract Student saveStudent(Student student);
 
-    Student getStudentById(Long id);
-    Student updateStudent(Student student);
+    public abstract Student getStudentById(Long id);
+    public abstract Student updateStudent(Student student);
 
-    void deleteStudentById(Long id);
+    public abstract void deleteStudentById(Long id);
 }
